@@ -2,13 +2,16 @@
 
 ## 최종 결과 영상
 > https://drive.google.com/file/d/1a1pGEO-CO3FDoFukODsCr2UXRjlBTGJ4/view?usp=sharing
-<br/>
+</br>
+
+![Car1](README.assets/Github_Car1.png)
+![Car2](README.assets/Github_Car2.png)
 
 ## 개발 배경
 
 > https://www.youtube.com/watch?v=eRwTbRtnT1I
 >
-> 11번 에피소드라는 짧은 시간안에 학습해서 자율주행을 구현
+> 강화학습을 이용하여 단시간 학습을 통해 자율주행 구현
 
 
 
@@ -16,16 +19,14 @@
 
 > 프로젝트 요구사항
 >
-> 1. 모형차가 주행가능한 영역을 실시간으로 인지
-> 2. DDPG 강화학습 모델이 10분 내에 주행할 수 있도록 최적을 보상 설계
-> 3. 최적의 학습 condition 찾아야한다.
+> 1. 모형차가 주행가능 영역을 실시간으로 인지
+> 2. DDPG 강화학습 모델이 단시간(10분) 내에 학습할 수 있도록 최적 Reward 식 설계
+> 3. 하이퍼파라미터의 수정을 통한 최적의 학습 조건 도출
 >
 > 프로젝트 목표
 >
 > 1. 실시간 영역분할(Image Segmentation) 모델을 적용한다
->
-> 2. 최적의 보상을 설계하기 위해 시뮬레이터를 이용하고 모형차에 적용한다.
->
+> 2. 최적의 Reward를 설계하기 위해 시뮬레이터를 이용하고 모형차에 적용한다.
 > 3. 시뮬레이터에서 최적의 강화학습 조건을 찾는다.
 
 
