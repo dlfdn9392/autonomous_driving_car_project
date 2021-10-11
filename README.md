@@ -32,52 +32,35 @@
 
 
 ## 시스템 구성
-
-![image-20211002194213600](README.assets/image-20211002194213600.png)
-
 > 인지 : 영역분할  segmentation ( ENET - sad )
 >
 > 판단, 제어 : 강화학습 Reinforcelearning ( DDPG )
-
-
-
-### 시뮬레이터
-
-![image-20211002194459037](README.assets/image-20211002194459037.png)
-
-### 모형차
-
-![image-20211002194520449](README.assets/image-20211002194520449.png)
-
-![image-20211002194538349](README.assets/image-20211002194538349.png)
-
-![image-20211002194546980](README.assets/image-20211002194546980.png)
-
+> ![image-20211002194213600](README.assets/image-20211002194213600.png)
+> ### 시뮬레이터
+> ![image-20211002194459037](README.assets/image-20211002194459037.png)
+> ### 모형차
+> ![image-20211002194520449](README.assets/image-20211002194520449.png)
+> ![image-20211002194538349](README.assets/image-20211002194538349.png)
+> ![image-20211002194546980](README.assets/image-20211002194546980.png)
 
 
 ## 프로젝트 결과
-
-### Carla simulator
-
-
-
-![1](README.assets/gif-maker(4).gif)
-
-### NX
-
-![2](README.assets/gif-maker(5).gif)
-
-
-
 > 1. Enet-Sad 모델을 통해 FPS 10의 실시간 영역분할 모델 적용 성공
 >
-> 2. 모형차에서 10분 (60 Episode) 만에 강화학습 주행 성공 
+> 2. OpenCV를 통한 영상처리로 영역의 방향과 차량의 방향 차이를 Reward 식으로 설계하여 모형차에서 10분 (60 Episode) 만에 강화학습 주행 성공 
 >
 > 3. Gazebo, Carla 시뮬레이터에서 강화학습 적용을 통해 Reward의 최적 하이퍼 파라미터 추출 성공 (⍺=10, 𝛽=50)
+> ### Carla simulator
+> ![1](README.assets/gif-maker(4).gif)
+> ### RC Car
+> ![2](README.assets/gif-maker(5).gif)
+> ![3](README.assets/Github_DDPG1.PNG)
 
 
 
-## 프로젝트 ref
+
+
+## Referance
 
 ### Theory
 
